@@ -14,20 +14,17 @@ body{
     z-index: -5;
 }
 
-/* .cloud1{
-    width: 120px;
-    height: 100px;
-    z-index: -1;
+.title{
+    font-size: 6.0rem;
 }
-.cloud2{
-    width: 120px;
-    height: 100px;
-    z-index: -1;
-} */
+
+.title2{
+    font-size: 6.0rem;
+}
 
 .hospital-image{
-    width: 320px;
-    height: 320px;
+    width: 343px;
+    height: 343px;
 }
 
 .mid{
@@ -36,4 +33,60 @@ body{
 
 .low-mid{
     background-color: #e1ffc2;
+}
+
+.d-btn1{
+    background-color: #eff1f3; 
+    color: #092532;
+    padding: 15px 5px;
+    margin: 10px;
+    font-size: 1.1rem;
+    border-radius: 5%;
+}
+
+.d-btn1:hover{
+    cursor: pointer;
+    background-color: #cbced1;
+    transition: ease-in-out 0.7s;
+}
+
+
+
+.d-btn2{
+    background-color: #eff1f3; 
+    color: #092532;
+    padding: 15px 20px 15px 5px;
+    margin: 10px;
+    font-size: 1.1rem;
+    border-radius: 5%;
+}
+
+.d-btn2:hover{
+    cursor: pointer;
+    background-color: #cbced1;
+    transition: ease-in-out 0.7s;
+}
+
+
+
+
+
+.icon{
+    margin: 10px;
+}
+
+
+
+
+
+@media screen and (max-width: 450px){
+    .title{
+        font-size: 4.0rem;
+        transition: all ease-in-out 0.5s;
+    }
+
+    .title2{
+        font-size: 4.0rem;
+        transition: all ease-in-out 0.5s;
+    }
 }
