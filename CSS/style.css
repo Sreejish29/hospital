@@ -90,3 +90,24 @@ body{
         transition: all ease-in-out 0.5s;
     }
 }
+
+
+
+/* BMR Design */
+
+
+input[type=radio]{
+
+    margin: 0px 5px;
+}
+
+.select1{
+    position: relative;
+    left: 43%;
+    justify-content: center;
+}
+.select2{
+    position: relative;
+    left: 46%;
+    justify-content: center;
+}
